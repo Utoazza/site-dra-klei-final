@@ -20,7 +20,7 @@ body { font-family: var(--font-body); background-color: var(--color-background);
 /* BARRA DE NAVEGAÇÃO */
 .main-nav { position: fixed; top: 0; left: 0; width: 100%; height: var(--nav-height); background-color: rgba(253, 252, 249, 0.95); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
 .nav-container { max-width: 1300px; height: 100%; margin: 0 auto; padding: 0 2%; display: flex; justify-content: space-between; align-items: center; }
-.nav-logo { height: 180px; }
+.nav-logo { height: 180px; margin-top: 15px; } 
 .nav-menu { list-style: none; display: flex; align-items: center; gap: 32px; }
 .nav-menu a { text-decoration: none; color: var(--color-text); font-weight: 500; position: relative; padding: 5px 0; }
 .nav-menu a::after { content: ''; position: absolute; width: 0; height: 2px; background-color: var(--color-accent); bottom: 0; left: 0; transition: width 0.3s ease; }
