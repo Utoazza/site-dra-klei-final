@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+// 1. A linha de importação foi adicionada aqui
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "Dra. Klei Prior - Biomédica Esteta",
@@ -13,7 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body>{children}</body>
+      <body>
+        {children}
+        {/* 2. O componente de análise foi adicionado aqui, antes de fechar o body */}
+        <Analytics />
+      </body>
     </html>
   );
 }
