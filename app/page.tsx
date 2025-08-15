@@ -146,6 +146,18 @@ export default function HomePage() {
                 </div>
                 <div className="accordion-content"><p>Harmonização não cirúrgica do perfil nasal. Com aplicações precisas de ácido hialurônico, corrigimos pequenas assimetrias e empinamos a ponta do nariz, com resultados imediatos.</p></div>
             </div>
+            <div className="accordion-item">
+              <div className="accordion-header" onClick={handleAccordionClick}>
+                <h3>Bioestimulador de Colágeno</h3><span className="icon">+</span>
+              </div>
+              <div className="accordion-content"><p>O tratamento definitivo para a flacidez e a perda de firmeza da pele. Os bioestimuladores são substâncias que incentivam o seu próprio corpo a produzir novas fibras de colágeno, restaurando a estrutura, a espessura e a qualidade da pele de forma gradual e duradoura. O resultado é um rejuvenescimento profundo e natural.</p></div>
+            </div>
+            <div className="accordion-item">
+              <div className="accordion-header" onClick={handleAccordionClick}>
+                <h3>Fios de PDO — Lifting e Sustentação</h3><span className="icon">+</span>
+              </div>
+              <div className="accordion-content"><p>Uma técnica inovadora para promover um efeito lifting não cirúrgico e estimular a produção natural de colágeno. Os fios de PDO são absorvíveis pelo organismo e criam uma rede de sustentação para a pele, tratando a flacidez e redefinindo os contornos da face com elegância e discrição.</p></div>
+            </div>
           </div>
         </section>
 
@@ -181,6 +193,20 @@ export default function HomePage() {
                     </div>
                     <h3>Preenchimento de Contorno</h3>
                     <p>Estratégias para realçar os ângulos da mandíbula e malar (maçãs do rosto) com naturalidade.</p>
+                </div>
+                <div className="result-card">
+                    <div className="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" width="28" height="28"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM159.3 388.7c-2.6 8.4-11.6 13.2-20 10.5s-13.2-11.6-10.5-20L158.7 288H96c-8.8 0-16-7.2-16-16s7.2-16 16-16h79.3c3.1 0 6.1 1.1 8.5 3.1l80 64c6.9 5.6 7.8 15.9 2.2 22.8s-15.9 7.8-22.8 2.2L208 328.8V416c0 8.8-7.2 16-16 16s-16-7.2-16-16V372.4L159.3 388.7zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM160 160a32 32 0 1 1-64 0 32 32 0 1 1 64 0zM384 224a32 32 0 1 1-64 0 32 32 0 1 1 64 0zm64-64a32 32 0 1 1 0-64 32 32 0 1 1 0 64z"/></svg>
+                    </div>
+                    <h3>Bioestimulador de Colágeno</h3>
+                    <p>Restaura a estrutura e a firmeza da pele de forma gradual, incentivando seu corpo a produzir colágeno.</p>
+                </div>
+                <div className="result-card">
+                    <div className="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" width="28" height="28"><path d="M132.3 228.3L256 104.6l123.7 123.7c3.1 3.1 7.2 4.7 11.3 4.7s8.2-1.6 11.3-4.7c6.2-6.2 6.2-16.4 0-22.6L278.6 81.4c-6.2-6.2-16.4-6.2-22.6 0L132.3 205.7c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0zM278.6 430.6L132.3 284.3c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6L256 429.4l123.7-123.7c6.2-6.2 6.2-16.4 0-22.6s-16.4-6.2-22.6 0L278.6 408c-3.1 3.1-7.2 4.7-11.3 4.7s-8.2-1.6-11.3-4.7z"/></svg>
+                    </div>
+                    <h3>Fios de PDO — Lifting e Sustentação</h3>
+                    <p>Promove um efeito lifting não cirúrgico, tratando a flacidez e redefinindo os contornos da face.</p>
                 </div>
             </div>
 
